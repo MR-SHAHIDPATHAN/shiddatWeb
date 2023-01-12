@@ -1,0 +1,123 @@
+
+.parent_step_one{
+  background-color: #FEE140;
+  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+  
+
+
+
+}
+
+.step-one{
+  /* background-color: white; */
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  
+}
+
+.step_1{
+  background-color: rgb(242, 242, 242);
+  padding: 1rem;
+  border-radius: 1rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+font-weight: bold;
+
+}
+
+
+.step_1_title{
+  /* background-color: rgb(242, 242, 242); */
+  padding: 1rem;
+  border-radius: 1rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+font-weight: bold;
+
+background-color: #FAD961;
+background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+
+}
+
+
+.step_1_pro_lang_desc{
+  /* border: 1px solid red; */
+  /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+  background-color: azure;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  list-style: none;
+  /* display: flex; */
+  /* justify-content: center; */
+  border-radius: 0.5rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.step_1_pro_lang_desc > li{
+  list-style: none;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 0.5rem;
+
+padding: 0.5rem;
+margin: 0.5rem;
+cursor: pointer;
+font-weight: bold;
+/* background-image: linear-gradient(to right, #fc5c7d, #6a82fb); */
+
+/* background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); */
+background-image: linear-gradient(to right, #00b4db, #0043b0);
+color: white;
+}
+
+.step_1_pro_lang_desc > li:hover{
+  background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+
+
+
+/* accrodin css here  */
+
+
+/* # The Rotating Marker # */
+details summary::-webkit-details-marker { display: none; }
+summary::before {
+  font-family: "Hiragino Mincho ProN", "Open Sans", sans-serif;
+  content: "▶";
+  position: absolute;
+  top: 1rem;
+  left: 0.8rem;
+  transform: rotate(0);
+  transform-origin: center;
+  transition: 0.2s transform ease;
+}
+details[open] > summary:before {
+  transform: rotate(90deg);
+  transition: 0.45s transform ease;
+}
+
+/* # The Sliding Summary # */
+ /* details { overflow: hidden; }
+details summary {
+  position: relative;
+  z-index: 10;
+}
+@keyframes details-show {
+  from {
+    margin-bottom: -80%;
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+details > *:not(summary) {
+  animation: details-show 500ms ease-in-out;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  color: transparent;
+  overflow: hidden;
+}
+details[open] > *:not(summary) { color: inherit; }  */
